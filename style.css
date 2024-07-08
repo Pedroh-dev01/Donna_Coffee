@@ -52,4 +52,9 @@ figure img {
 .container__header .nav__links ul li:hover {
   font-size: 21px;
   color: var(--principal-color);
+}
+
+#home {
+  background: url(assets/img/home-img.jpg);
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
