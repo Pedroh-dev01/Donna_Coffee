@@ -12,6 +12,8 @@
     text-decoration: none;
     outline: none;
     border: none;
+    list-style: none;
+    transition: .2s linear;
 }
 
 body{
@@ -21,9 +23,41 @@ body{
 
 header{
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: 2px #13131a solid;
 }
 
 figure img{
-    height: 75px;
+    height: 70px;
     border-radius: 50%;
 }
+
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left: 3rem;
+
+    .nav__links { 
+        ul{
+            display: flex;
+            gap: 2rem;
+            
+            li{
+                font-size: 19px;
+                color: #fff;
+            }
+
+            li:hover{
+                font-size: 21px;
+                color: var(--principal-color);
+            }
+        }
+    }
+}
+
+
