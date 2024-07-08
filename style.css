@@ -1,0 +1,28 @@
+:root {
+  --principal-color:#d3ad7f;
+  --preto: #13131a;
+  --fundo: #010103;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  background-color: var(--fundo);
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+}
+
+figure img {
+  height: 75px;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
