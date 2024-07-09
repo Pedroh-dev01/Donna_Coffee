@@ -166,7 +166,80 @@ figure img{
             }
 
         }
-
-        
     }
+}
+
+
+.container__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        font-size: 2.5rem;
+        color: #fff;
+        padding-bottom: 3rem;
+
+        span{
+            color: var(--principal-color);
+        }
+    }
+
+    .container_all_card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 4rem;
+
+        .figure__card img{
+            height: 250px;
+        }
+
+        .cotainer__card{
+            border: 4px solid var(--preto);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 1rem;
+
+            &:hover{
+                background-color: #ffffff4b;
+            }
+
+            h3{
+                font-size: 28px;
+                color: #fff;
+                margin-bottom: 1rem;
+            }
+
+            p{
+                color: #fff;
+                font-size: 18px;
+                display: inline;
+                margin: 3px;
+            }
+
+            .price_antigo__card{
+                text-decoration: line-through;
+                color: var(--preto);
+            }
+
+            button{
+                background-color: var(--principal-color);
+                padding: 8px;
+                margin: 2rem auto;
+                font-size: 20px;
+                border-radius: 5px;
+                color: #fff;
+                cursor: pointer;
+
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    
 }
