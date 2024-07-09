@@ -62,6 +62,11 @@ figure img{
     .nav__icons{
     display: flex;
     gap: 2rem;
+
+        .nav__icons img:hover{
+    height: 35px;
+    width: 35px;
+  }
   }
 }
 
