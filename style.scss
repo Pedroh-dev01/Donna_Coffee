@@ -317,12 +317,22 @@ footer{
 
     .container__conteudo{
         display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h3{
+            color: #fff;
+            font-size: 28px;
+
+            span{
+                color: var(--principal-color);
+            }
+        }
 
         .footer__links{
             margin-right: 10rem;
             ul{
                 display: flex;
-                flex-direction: column;
                 gap: 1rem;
                 
             
@@ -340,16 +350,10 @@ footer{
 
         .links__sociais{
             display: flex;
-            flex-direction: column;
 
-            h3{
-                color: #fff;
-                font-size: 28px;
-                margin: 5px;
-                margin-bottom: 1rem;
-            }
-            img{
+             img{
                 height: 30px;
+                margin: 5px;
 
                 &:hover{
                     height: 35px;

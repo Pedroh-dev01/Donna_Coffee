@@ -264,13 +264,21 @@ footer img {
 }
 footer .container__conteudo {
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+footer .container__conteudo h3 {
+  color: #fff;
+  font-size: 28px;
+}
+footer .container__conteudo h3 span {
+  color: var(--principal-color);
 }
 footer .container__conteudo .footer__links {
   margin-right: 10rem;
 }
 footer .container__conteudo .footer__links ul {
   display: flex;
-  flex-direction: column;
   gap: 1rem;
 }
 footer .container__conteudo .footer__links ul li {
@@ -283,16 +291,10 @@ footer .container__conteudo .footer__links ul li:hover {
 }
 footer .container__conteudo .links__sociais {
   display: flex;
-  flex-direction: column;
-}
-footer .container__conteudo .links__sociais h3 {
-  color: #fff;
-  font-size: 28px;
-  margin: 5px;
-  margin-bottom: 1rem;
 }
 footer .container__conteudo .links__sociais img {
   height: 30px;
+  margin: 5px;
 }
 footer .container__conteudo .links__sociais img:hover {
   height: 35px;
