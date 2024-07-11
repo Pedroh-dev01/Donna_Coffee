@@ -108,6 +108,7 @@ figure img {
 }
 
 .container__sobre {
+  margin: 4rem auto;
   padding: 8rem;
 }
 .container__sobre section {
@@ -161,6 +162,7 @@ figure img {
   margin-bottom: 0;
 }
 .container__menu h2 {
+  margin: 5rem auto auto;
   font-size: 2.5rem;
   color: #fff;
   padding-bottom: 3rem;
@@ -228,6 +230,7 @@ figure img {
   font-size: 2.5rem;
   color: #fff;
   padding-bottom: 3rem;
+  margin: 5rem auto auto;
 }
 .container__avaliacao h2 span {
   color: var(--principal-color);
